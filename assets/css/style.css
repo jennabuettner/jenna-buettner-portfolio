@@ -1,10 +1,11 @@
 * {
     margin: 0;
-    background-color: #eaebe5;
+
 }
 
 body {
     font-family: 'Libre Baskerville', serif;
+    background-color: #eaebe5;
 }
 
 .bg-img {
@@ -14,6 +15,7 @@ body {
     z-index: 0;
 }
 
+/* homepage nav */
 .navbar ul {
     display: flex;
     flex-direction: row;
@@ -27,7 +29,22 @@ body {
     font-size: 0.7rem;
     letter-spacing: 5px;
     padding: 10px;
-    text-shadow: -5px 1px 4px rgb(178, 178, 178);
+    /* text-shadow: -5px 1px 4px rgb(178, 178, 178); */
+}
+
+/* workpage nav */
+.work-navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 20px 0 -15px;
+}
+
+.work-navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.7rem;
+    letter-spacing: 5px;
 }
 
 .title, .location {
@@ -42,6 +59,30 @@ h1 {
     letter-spacing: 15px; 
     font-size: 2.7rem;
     margin: 10px;
+    font-style: italic;
+}
+
+.name-work {
+    text-align: center;
+    letter-spacing: 15px; 
+    font-size: 2.5rem;
+    margin: 10px;
+    font-style: italic;
+}
+
+.title-work {
+    font-size: 0.8rem;
+    letter-spacing: 5px;
+    text-align: center;
+    border-bottom: solid 1px;
+    padding-bottom: 10px;
+}
+
+.work-header {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 5px; 
+    font-size: 1.3rem;
 }
 
 h3 {
@@ -51,4 +92,52 @@ h3 {
 h3 img {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.work-card {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.card-title {
+    font-size: 1.2rem;
+    letter-spacing: 5px;
+    background-color: white;
+    font-style: italic; 
+}
+
+.card-text {
+    font-size: 0.7rem;
+    background-color: white;
+}
+
+.card-body { 
+    background-color: white;
+    border-top: solid black;
+}
+
+.card {
+    border: solid black;
+    margin: 0 20px 20px 20px;
+}
+
+.card-btn {
+    background-color: rgb(119, 119, 119);
+    font-style: italic;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.card-btn:hover {
+    background-color: black;
+    color: white;
+    text-decoration: none;
 }
