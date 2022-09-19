@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: "Libre Baskerville", serif;
+  background-color: #eaebe5;
+}
+
+html {
+  font-family: "Libre Baskerville", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.name-contact {
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 2.5rem;
+  margin: 10px;
+  font-style: italic;
+}
+
+.name-contact {
+  font-weight: 400;
+}
+
+.contact-navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 20px 0 -15px;
+}
+
+.contact-navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  letter-spacing: 5px;
+}
+
+.title-contact {
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  text-align: center;
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
+}
+
+.title-contact {
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.contact-header {
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+
+p {
+    font-size: .75rem;
+    text-align: center;
+}
+
+.contact-header {
+  font-weight: 400;
+}
+
+.form-container {
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+    display: inline;
+}
+
+input {
+    background-color: #eaebe5;
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Libre Baskerville', sans-serif;
+    line-height: 150%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 80%;
+    border: 1px black solid;
+}
+
+#form-message {
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+button {
+    max-width: 25%;
+    font-family: 'Libre Baskerville', sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    background-color: rgb(162, 162, 162);
+    border: none;
+    border-radius: 3px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: black;
+}

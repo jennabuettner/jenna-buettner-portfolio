@@ -32,20 +32,21 @@ body {
     /* text-shadow: -5px 1px 4px rgb(178, 178, 178); */
 }
 
-/* workpage nav */
-.work-navbar ul {
+/* work page,contact page nav */
+.work-navbar ul, .contact-navbar ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0px 20px 0 -15px;
 }
 
-.work-navbar a {
+.work-navbar a, .contact-navbar a {
     text-decoration: none;
     color: black;
     font-size: 0.7rem;
     letter-spacing: 5px;
 }
+/*  */
 
 .title, .location {
     font-size: 0.7rem;
@@ -62,7 +63,7 @@ h1 {
     font-style: italic;
 }
 
-.name-work {
+.name-work, .name-contact {
     text-align: center;
     letter-spacing: 15px; 
     font-size: 2.5rem;
@@ -70,7 +71,11 @@ h1 {
     font-style: italic;
 }
 
-.title-work {
+.name-contact {
+    font-weight: 400;
+}
+
+.title-work, .title-contact {
     font-size: 0.8rem;
     letter-spacing: 5px;
     text-align: center;
@@ -78,11 +83,20 @@ h1 {
     padding-bottom: 10px;
 }
 
-.work-header {
+.title-contact {
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.work-header, .contact-header {
     text-align: center;
     font-style: italic;
     letter-spacing: 5px; 
     font-size: 1.3rem;
+}
+
+.contact-header {
+    font-weight: 400;
 }
 
 h3 {
@@ -141,3 +155,4 @@ h3 img {
     color: white;
     text-decoration: none;
 }
+
