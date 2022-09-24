@@ -15,6 +15,10 @@ body {
     font-style: italic;
 }
 
+.name-about a {
+  color: black;
+  text-decoration: none;
+}
 
 .title-about {
     font-size: 0.8rem;
@@ -28,7 +32,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 20px 0 -15px;
+    margin: 10px 200px 0 200px;
 }
 
 .about-navbar a {
@@ -85,6 +89,15 @@ p {
   margin: 10px;
   padding: 20px;
   border-radius: 5px;
+}
+
+.list-item {
+  list-style-type: disc;
+  line-height: 150%;
+}
+
+.frontend, .backend {
+  text-decoration: underline;
 }
 
 .testimonials {

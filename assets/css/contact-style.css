@@ -18,6 +18,11 @@ html {
   font-style: italic;
 }
 
+.name-contact a {
+  color: black;
+  text-decoration: none;
+}
+
 .name-contact {
   font-weight: 400;
 }
@@ -26,7 +31,7 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0px 20px 0 -15px;
+  margin: 0px 200px 0 200px;
 }
 
 .contact-navbar a {
