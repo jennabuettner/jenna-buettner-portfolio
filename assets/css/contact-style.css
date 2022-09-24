@@ -74,7 +74,7 @@ p {
 }
 
 input {
-    background-color: #eaebe5;
+    background-color: #ffffff;
     border: none;
     border-bottom: 1px solid black;
     font-family: 'Libre Baskerville', sans-serif;
@@ -101,7 +101,8 @@ button {
     font-family: 'Libre Baskerville', sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    background-color: rgb(162, 162, 162);
+    color: white;
+    background-color: rgb(99, 99, 99);
     border: none;
     border-radius: 3px;
     margin: auto;
