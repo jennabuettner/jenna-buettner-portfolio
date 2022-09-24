@@ -81,7 +81,7 @@ p {
 .skills-list {
   display: flex;
   flex-direction: column;
-  background-color: #e3e4df;
+  background-color: #f4f4f4;
   margin: 10px;
   padding: 20px;
   border-radius: 5px;
@@ -109,7 +109,7 @@ p {
 .testimonial {
   display: flex;
   flex-direction: column;
-  background-color: #e3e4df;
+  background-color: #f4f4f4;
   padding: 20px;
   border-radius: 5px;
   margin: auto;
@@ -186,75 +186,75 @@ li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
 }
 
 .carousel__slide:nth-child(1) {
   background-image: url("/assets/images/IMG_0871.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(2) {
   background-image: url("/assets/images/IMG_0873.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(3) {
   background-image: url("/assets/images/IMG_0874.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(4) {
   background-image: url("/assets/images/IMG_0875.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(5) {
   background-image: url("/assets/images/IMG_0876.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(6) {
   background-image: url("/assets/images/Image_Original_Original.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(7) {
   background-image: url("/assets/images/IMG_1138.PNG");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(8) {
   background-image: url("/assets/images/IMG_1881_Original.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(9) {
   background-image: url("/assets/images/IMG_6263_Original.jpg");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .carousel__slide:nth-child(10) {
   background-image: url("/assets/images/IMG_7151_Original.JPG");
-  background-color: #eaebe5;
+  background-color: #f4f4f4;
   background-position: center;
   background-repeat: no-repeat;
 }
