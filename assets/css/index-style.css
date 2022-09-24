@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #eaebe5;
+}
+
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30px 20px 0 -15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  letter-spacing: 5px;
+  padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 15px; 
+    font-size: 2.5em;
+    margin: 10px;
+    font-style: italic;
+}
+
+
+.bg-img {
+  max-height: 50%;
+  position: absolute;
+  bottom: 0;
+  z-index: 0;
+}
+
+.title, .location {
+  font-size: 0.7rem;
+  letter-spacing: 5px;
+  padding: 10px;
+  text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 img {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+@media only screen and (min-width: 992px) {
+    .bg-img {
+        max-height: 80%;
+    }
+
+    .navbar ul {
+        display: flex;
+        margin-left: 30%;
+    }
+
+    .navbar a {
+        font-size: .9em;
+    }
+
+    .main-splash {
+        margin-left: 30%;
+        margin-top: 5%;
+    }
+
+    h1 {
+        font-size: 6em;
+    }
+
+    .title, .location {
+        font-size: 1em;
+    }
+
+    .skills-container {
+      max-width: 20%;
+    }
+
+    .testimonials-container {
+      background-size: contain;
+    }
+}
