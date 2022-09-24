@@ -376,8 +376,19 @@ li {
 /* end carousel */
 
 @media only screen and (min-width: 992px) {
+  .body-ody {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .about-section, .skills-section, .testimonials-section, .creations-section {
+    max-width: 40%;
+    margin: 20px auto;
+  }
+
   .skills-container {
-    max-width: 30%;
+    width: 400px;
   }
 
   .testimonials-container {
