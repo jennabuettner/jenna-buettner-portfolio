@@ -13,41 +13,42 @@ body {
 }
 
 .name-about {
-    text-align: center;
-    letter-spacing: 15px;
-    font-size: 2.5rem;
-    margin: 10px;
-    font-style: italic;
+  text-align: center;
+  letter-spacing: 15px;
+  font-size: 2.5rem;
+  margin: 10px;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .title-about {
-    font-size: 0.8rem;
-    letter-spacing: 5px;
-    text-align: center;
-    border-bottom: solid 1px;
-    padding-bottom: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 5px;
+  text-align: center;
+  border-bottom: solid 1px;
+  padding-bottom: 10px;
 }
 
 .about-navbar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 10px 200px 0 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px 20px 0 -15px;
 }
 
 .about-navbar a {
-    text-decoration: none;
-    color: black;
-    font-size: 0.7rem;
-    letter-spacing: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 0.7rem;
+  letter-spacing: 5px;
 }
 
 .about-header {
-    text-align: center;
-    font-style: italic;
-    letter-spacing: 5px;
-    font-size: 1.3rem;
-    font-weight: 400px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 5px;
+  font-size: 1.3rem;
+  font-weight: 400px;
 }
 
 p {
@@ -96,7 +97,8 @@ p {
   line-height: 150%;
 }
 
-.frontend, .backend {
+.frontend,
+.backend {
   text-decoration: underline;
 }
 
@@ -394,8 +396,11 @@ li {
     flex-direction: row;
     flex-wrap: wrap;
   }
-  
-  .about-section, .skills-section, .testimonials-section, .creations-section {
+
+  .about-section,
+  .skills-section,
+  .testimonials-section,
+  .creations-section {
     max-width: 40%;
     margin: 20px auto;
   }
@@ -411,5 +416,9 @@ li {
   .name-about a {
     color: black;
     text-decoration: none;
+  }
+
+  .about-navbar ul {
+    margin: 10px 200px 0 200px;
   }
 }
