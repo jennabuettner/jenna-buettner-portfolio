@@ -2,14 +2,14 @@
   margin: 0;
 }
 
-h1 a {
-  color: black;
-  text-decoration: none;
-}
-
 body {
   font-family: "Libre Baskerville", serif;
   background-color: #eaebe5;
+}
+
+.name {
+  color: black;
+  text-decoration: none;
 }
 
 .name-about {
