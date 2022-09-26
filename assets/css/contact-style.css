@@ -129,6 +129,6 @@ button:hover {
   }
 
   .contact-navbar a:hover {
-    text-shadow: -5px 3px 6px gray;
+    text-shadow: -5px 3px 6px rgb(156, 156, 156);
   }
 }
