@@ -99,4 +99,8 @@ body {
   .work-navbar ul {
     margin: 10px 200px 0 200px;
   }
+
+  .work-navbar a:hover {
+    text-shadow: -5px 3px 6px gray;
+  }
 }

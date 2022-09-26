@@ -10,11 +10,6 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 
-.name {
-  color: black;
-  text-decoration: none;
-}
-
 .name-contact {
   text-align: center;
   letter-spacing: 15px;
@@ -131,5 +126,9 @@ button:hover {
 
   .contact-navbar ul {
     margin: 10px 200px 0 200px;
+  }
+
+  .contact-navbar a:hover {
+    text-shadow: -5px 3px 6px gray;
   }
 }
