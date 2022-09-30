@@ -411,7 +411,9 @@ li {
     margin: 20px auto;
   }
 
-
+  .testimonials-section {
+    margin: auto;
+  }
 
   .skills-container {
     width: 400px;
@@ -420,7 +422,6 @@ li {
   .testimonials-container {
     flex-direction: row;
     justify-content: center;
-    margin: auto;
   }
   
   .name-about a {
