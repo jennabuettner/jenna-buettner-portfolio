@@ -94,6 +94,7 @@ input {
   margin: auto;
   max-width: 80%;
   border: 1px black solid;
+  background-color: #d7d8d4;
 }
 
 #form-message {
