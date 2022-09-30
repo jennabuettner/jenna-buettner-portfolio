@@ -47,8 +47,8 @@ body {
   text-align: center;
   font-style: italic;
   letter-spacing: 5px;
-  font-size: 1.3rem;
-  font-weight: 400px;
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 p {
@@ -150,6 +150,7 @@ p {
   letter-spacing: 5px;
   text-align: center;
   font-weight: 400;
+  margin-top: 30px;
 }
 
 * {
