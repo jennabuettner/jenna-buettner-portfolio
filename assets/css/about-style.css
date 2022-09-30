@@ -133,8 +133,6 @@ p {
   background-color: #f4f4f4;
   padding: 20px;
   border-radius: 5px;
-  margin-left: 60px;
-  width: 500px;
 }
 
 /* carousel */
@@ -409,6 +407,7 @@ li {
   .creations-section {
     max-width: 40%;
     margin: 20px auto;
+    justify-content: center;
   }
 
   .testimonials-section {
@@ -421,7 +420,12 @@ li {
 
   .testimonials-container {
     flex-direction: row;
-    justify-content: center;
+    margin: auto;
+  }
+
+  .testimonial {
+    margin-left: 60px;
+    width: 500px;
   }
   
   .name-about a {
