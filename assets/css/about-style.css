@@ -420,6 +420,7 @@ li {
   .testimonials-container {
     flex-direction: row;
     justify-content: center;
+    margin: auto;
   }
   
   .name-about a {
